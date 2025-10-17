@@ -4,7 +4,7 @@
 
 ## **Project Overview**
 
-This project applies **Reinforcement Learning (RL)** to teach an artificial agent how to control a lunar lander in the OpenAI Gym *LunarLander-v2* environment. The agent observes the state of the lander, things like its coordinates, velocity, angle, and whether its legs are touching the ground — and decides which thruster to fire next. Over time, by trial and error, it learns how to land softly between the flags without crashing or running out of fuel.
+This project applies **Reinforcement Learning (RL)** to teach an artificial agent how to control a lunar lander in the OpenAI Gym *LunarLander-v2* environment. The agent observes the state of the lander, things like its coordinates, velocity, angle, and whether its legs are touching the ground and decides which thruster to fire next. Over time, by trial and error, it learns how to land softly between the flags without crashing or running out of fuel.
 
 The approach is based on **Deep Q-Learning (DQN)**, which combines **Q-Learning**, a core reinforcement learning algorithm, with **deep neural networks**. Instead of storing a giant table of possible states and actions (which is infeasible for complex problems), the neural network estimates the *Q-values* ( expected future rewards) directly from the lander’s continuous state. Two networks are used:
 
@@ -17,7 +17,7 @@ Through repeated simulation, the agent gradually figures out the optimal policy,
 
 ## **Why Reinforcement Learning Is So Fascinating**
 
-Reinforcement learning becomes especially powerful when combined with deep learning, because it allows agents to operate in continuous, high-dimensional spaces where the number of possible states is practically infinite. Instead of relying on predefined rules, the agent learns directly from raw numerical input — using neural networks to approximate complex value functions and policies. Over time, it gradually reduces its epsilon, the factor controlling exploration vs. exploitation, meaning it starts by acting randomly and then becomes more deliberate as it gains experience. This process mirrors how infants learn about the world: lots of random trial-and-error at first, then increasingly precise actions guided by learned patterns. It’s an elegant, biologically inspired approach that opens the door to systems capable of mastering intricate real-world tasks autonomously.
+Reinforcement learning becomes especially powerful when combined with deep learning, because it allows agents to operate in continuous, high-dimensional spaces where the number of possible states is practically infinite. Instead of relying on predefined rules, the agent learns directly from raw numerical input, using neural networks to approximate complex value functions and policies. Over time, it gradually reduces its epsilon, the factor controlling exploration vs. exploitation, meaning it starts by acting randomly and then becomes more deliberate as it gains experience. This process mirrors how infants learn about the world: lots of random trial-and-error at first, then increasingly precise actions guided by learned patterns. It’s an elegant, biologically inspired approach that opens the door to systems capable of mastering intricate real-world tasks autonomously.
 
 Another reason I find this project so cool is that it reminded me of that viral TikTok clip showing a **SpaceX rocket booster landing itself**. Replicating a simplified version of that through code (teaching a virtual spacecraft to self-stabilize and land) felt both futuristic and cool.
 
