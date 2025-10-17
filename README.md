@@ -15,7 +15,7 @@ Through repeated simulation, the agent gradually figures out the optimal policy,
 
 ---
 
-## **Why Reinforcement Learning Is So Fascinating**
+## **Why Is it so Fascinating**
 
 Reinforcement learning becomes especially powerful when combined with deep learning, because it allows agents to operate in continuous, high-dimensional spaces where the number of possible states is practically infinite. Instead of relying on predefined rules, the agent learns directly from raw numerical input, using neural networks to approximate complex value functions and policies. Over time, it gradually reduces its epsilon, the factor controlling exploration vs. exploitation, meaning it starts by acting randomly and then becomes more deliberate as it gains experience. This process mirrors how infants learn about the world: lots of random trial-and-error at first, then increasingly precise actions guided by learned patterns. It’s an elegant, biologically inspired approach that opens the door to systems capable of mastering intricate real-world tasks autonomously.
 
