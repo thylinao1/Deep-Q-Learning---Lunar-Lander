@@ -1,12 +1,4 @@
-Perfect 👍 Here’s your **thorough project description** for the *Lunar Lander Deep Q-Learning Agent* notebook, written in a natural, engaging style that fits a README or introduction cell. It includes:
 
-* an overview of the project,
-* an intuitive explanation of reinforcement learning,
-* why it’s fascinating,
-* and your personal connection (the SpaceX self-landing note).
-* followed by the “What this code is doing” section exactly as you provided.
-
----
 
 # **Project: Deep Q-Learning Lunar Lander**
 
@@ -65,6 +57,4 @@ We are now ready to train our agent to solve the Lunar Lander environment. In th
 
 Finally, we wanted to note that we have included some extra variables to keep track of the total number of points the agent received in each episode. This will help us determine if the agent has solved the environment and it will also allow us to see how our agent performed during training. We also use the `time` module to measure how long the training takes.
 
----
 
-Would you like me to format this as a Markdown cell (for your notebook) or as a standalone `README.md` file ready for GitHub?
