@@ -547,8 +547,6 @@ P(i) ∝ priority_i^α
 
 ## 🏆 Why This Matters
 
-### For ML/Quant Research Roles
-
 **This project demonstrates:**
 
 1. **Mathematical Rigor**
@@ -609,8 +607,3 @@ MIT License - See LICENSE file for details
 - **TensorFlow Team** - For the excellent deep learning framework
 - **RL Community** - For open-source implementations and discussions
 
----
-
-*"The best way to predict the future is to invent it."* - Alan Kay
-
-**Built with passion for reinforcement learning and autonomous systems** 🚀
