@@ -13,7 +13,7 @@
 
 Implementation of the Deep Q-Network (DQN) algorithm to solve OpenAI Gym's Lunar Lander environment. The agent learns to safely land a spacecraft on the moon's surface by discovering an optimal control policy through trial and error, achieving consistent scores above 200 (the success threshold) after ~1500-2000 episodes.
 
-**Key Achievement:** Autonomous spacecraft control learned entirely from raw state observations and reward signals—no manual control rules, no physics modeling, just end-to-end reinforcement learning.
+**Key Achievement:** Autonomous spacecraft control learned entirely from raw state observations and reward signals—no manual control rules, no physics modeling, just end-to-end reinforcement learning
 
 ---
 
