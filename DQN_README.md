@@ -59,7 +59,7 @@ Implementation of the Deep Q-Network (DQN) algorithm to solve OpenAI Gym's Lunar
 DQN extends classical Q-learning by using a neural network to approximate the optimal action-value function:
 
 $$
-Q^*(s, a) = \mathbb{E}\left[ \sum_{t=0}^{\infty} \gamma^t r_t \mid s_0=s, a_0=a, \pi^* \right]
+Q^{*}(s, a) = \mathbb{E}\left[ \sum_{t=0}^{\infty} \gamma^{t} r_{t} \mid s_{0}=s, a_{0}=a, \pi^{*} \right]
 $$
 
 **Core Innovation (Mnih et al., 2015):**
